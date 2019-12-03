@@ -1,0 +1,346 @@
+/* 1_ navegador con secciones, logo y nombre de emprea*/
+/* 2_ imagen de fondo en cabecera*/
+/* 3_ formulario de busqueda*/
+/* 4_ Experiencia1*/
+/* 5_ Opiniones*/
+/* 5 A_opiniones*/
+/* 6_ Footer*/
+/* CREADO POR JANS ARIEL */
+
+
+body{
+    margin: 0px;
+}
+
+/* 1_ navegador con secciones, logo y nombre de emprea*/
+.nav{
+    z-index: 1;
+    width: 98%;
+    position: fixed;
+    height: 55px;
+    padding: 0 15px;
+    background-color: rgba(225, 239, 239, 0.77);
+}
+
+.nav-item{
+    font-family: 'Roboto', sans-serif;
+    color: #2f2d2d;
+    font-size: 15px;
+    float: right;
+    text-decoration: none;
+    margin: 19px 16px ;
+}
+
+.nav-item:hover {
+    color: #e64ac3f0;
+}
+
+.img-guest{
+    height: 55px;
+    float: left;
+    margin: 0px 10px;
+}
+
+.brand{
+    color: #e64ac3f0;
+    font-size: 2.8em;
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    text-decoration: none; 
+}
+
+/* FIN 1 */
+
+/* 2_ imagen de fondo en cabecera*/
+.img-background{
+    max-width: 100%;
+    height: 300px;
+    background: url(../images/img-head.png) no-repeat fixed center center;
+    
+}
+/* FIN 2_ imagen de fondo en cabecera*/
+
+h1{
+    color: #e452c4;
+    font-family: 'Righteous', cursive;
+    margin-top: 12px;
+}
+
+/* 3_ formulario de busqueda*/
+.form{
+   text-align: center;
+   padding: 5% 10% 10%;
+}
+
+.impu-form{
+    font-family: sans-serif;
+    border-radius: 2px;
+    padding: 8px;
+    border: none;
+}
+
+.impu-form1{
+    font-family: sans-serif;
+    border-radius: 2px;
+    padding: 6.5px;
+    border: none;
+}
+
+.impu-btn {
+    border-radius: 5px;
+    margin: 10px 0;
+    background: #0088B2;
+    color: #fff;
+    padding: 8px 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+/* FIN 3_ formulario de busqueda*/
+
+/* 4_ Experiencia1*/
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #1d1c1acf;
+    margin: 0;
+    padding: 50px 0 25px;
+}
+
+.descripcion{
+    padding: 0 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* 4_ FIN Experiencia1*/
+
+/* 5_ Opiniones*/
+.destacados{ 
+    background: rgb(248, 250, 253);
+    padding-bottom: 15px;
+}
+
+.img-des{
+    display: flex;
+    padding: 5px 25px;
+}   
+
+.img-des2{
+    width: 50%;
+    display: flex;
+    padding: 5px 25px;
+}   
+
+.img-item-des{
+    border-radius: 5px;
+    margin: 10px 75px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-item-des2{
+    width: 50%;
+    border-radius: 5px;
+    margin: 10px 75px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.p-item1 {
+    float: left;
+    margin-left: 30px;
+}
+
+.p-item2 {
+    width: 102px;
+    float: right;
+    margin: 14px;
+}
+
+.container{
+    position: relative;
+}
+
+.titulos2{
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #9696dc7d;
+    padding: 14px;
+    margin-top: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.img-9{
+    max-width: 100%;
+    height: auto;
+    transition: 1s;
+} 
+
+.btn-mas-item {
+    border-radius: 5px;
+    margin: 20px 35px;
+    background: #0088B2;
+    color: #fff;
+    padding: 1% 20%;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+
+.btn-mas-item:hover{
+    background: #e64ac3f0;
+    box-shadow: 0 4px 8px 0 rgba(123, 124, 187, 0.2), 0 6px 20px 0 rgba(34, 33, 33, 0.726);
+    transition: 0.5s;
+}
+
+.btn-mas{
+    text-align: center;
+}
+
+.btn-dest{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+}
+
+.btn-l-r{
+    width: 3%;
+    cursor: pointer;
+}
+
+/* 5 A_opiniones*/
+.usuarios{
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    margin: 0 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.item-op{
+    display: flex;
+    align-items:center;
+    margin-bottom: 5px;
+}
+
+.item-tex{
+    margin-right: 15px;
+    border: solid;
+    border-radius: 5px;
+    border-color: #0088b280;
+    padding: 7px;
+    box-shadow: 0 4px 8px 0 rgba(123, 124, 187, 0.2), 0 6px 20px 0 rgba(34, 33, 33, 0.10);
+}
+
+.item-tex:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.item-tex-2{
+    border-color:#e64ac3f0;
+}
+
+/* FIN 5 A_opiniones*/
+/* FIN 5_ Opiniones*/    
+
+/* 6_Footer*/
+
+.footer-section{
+    background: #0088B2;
+    margin: 0;
+    padding: 30px 35px;
+}
+
+.container-footer{
+   display: inline-flex;
+   width: 100%;
+}
+
+.col-1{
+    width: 35%;
+}
+
+.col-2{
+    margin-left: 10%;
+}
+
+.col-3{
+   margin-left: 26%;
+}
+
+.ftco-footer-social{
+    padding: 0;
+}
+
+.ftco-animate{
+    padding: 0 20px 0px 0;
+    display: inline;
+    font-size: 40px;
+}
+
+.icon-social{
+    color: #2f3238f0;
+}
+
+.footer-titulos{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #fff;
+    display: grid;
+    padding: 35px 0px;
+}
+
+.brand2{
+    display: flex;
+    align-items: center;
+    color: #e64ac3f0;
+    font-size: 2.8em;
+    font-family: 'Righteous', cursive;
+    padding: 0;
+}
+
+.footer-img{
+    width: 70px;
+}
+.btn-footer{
+    border-radius: 5px;
+    margin: 10px 0px;
+    background: #4267b2;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 5% 15%;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    float: right;
+    transition: 0.5s;
+}
+
+.btn-footer:hover{
+    background: #e64ac3f0;
+    box-shadow: 0 4px 8px 0 rgba(123, 124, 187, 0.2), 0 6px 20px 0 rgba(34, 33, 33, 0.726);
+    transition: 0.5s;
+}
+
+.item-footer2{
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    color: #141312d7;
+}
+
+.list-unstyled{
+    list-style: none;
+    padding-left: 7px;
+    margin-top: 0;
+    line-height: 25px;
+}
+
+/* FIN 6_Footer*/
+
+
+
